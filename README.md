@@ -20,7 +20,7 @@ The script requires Python 3.x to be installed on your system.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/repository-name.git
+   git clone https://github.com/kasra-z/M_script.git
    
    ```
    
@@ -32,20 +32,31 @@ The script requires Python 3.x to be installed on your system.
    ```
 
 
-#Usage
-    Merge Multiple Files
-    Merge multiple files into a single file.
-    Remove Duplicate Elements (shuffle-order is not important)
-    Remove duplicate elements from a file, regardless of their order.
-    Remove Duplicate Elements (orderly-order is important)
-    Remove duplicate elements from a file while preserving their order.
-    Extract Intersection Between two Files
-    Extract the common lines between two files.
-    Extract Difference Between two Files
-    Extract the unique lines that exist in either of the two files.
-    About M_script
+## Usage
 
-    Displays information about M_script.
+    Merge Multiple Files
+    
+    Merge multiple files into a single file.
+    
+    Remove Duplicate Elements (shuffle-order is not important)
+    
+    Remove duplicate elements from a file, regardless of their order.
+    
+    Remove Duplicate Elements (orderly-order is important)
+    
+    Remove duplicate elements from a file while preserving their order.
+    
+    Extract Intersection Between two Files
+    
+    Extract the common lines between two files.
+    
+    Extract Difference Between two Files
+    
+    Extract the unique lines that exist in either of the two files.
+    
+   About M_script
+
+   Displays information about M_script.
 
 Instructions
 
