@@ -103,8 +103,10 @@ Extract Difference Between two Files
 
 # Optimizations
 
-process bar
+
 To optimize the M_script, you can consider the following improvements:
+
+process bar
 
    Input Validation: Implement robust input validation to handle various edge cases, such as invalid file paths, incorrect file formats, and unexpected user inputs. This will enhance the reliability and usability of the script.
 
