@@ -26,7 +26,7 @@ The script requires Python 3.x to be installed on your system.
    
    Change into the project directory and use it
    ```bash
-   cd #repository-name
+   cd M_script
    python3 main.py
    
    ```
@@ -60,21 +60,7 @@ The script requires Python 3.x to be installed on your system.
    Displays information about M_script.
 ```
 # Instructions
-
-   Run the script by executing the following command:
- ```bash
     
-
-    python script.py
-
-    Select an option from the displayed menu by entering the corresponding number (0-6).
-
-    Follow the prompts to provide the required input for each operation.
-
-    Depending on the selected option, the script will perform the specified file operation and provide the results.
-    
-```
-Examples
 
    Merge Multiple Files
 
@@ -85,17 +71,15 @@ Examples
         Please enter the path of file 3 (with .txt format): path/to/file3.txt
         Are you sure you want to merge these files? (yes/no) yes
         OK. Now please enter the final file name (the merged file): merged_files.txt
-        
- ```bash
- 
- 
+```
+
    Remove Duplicate Elements (shuffle-order is not important)
 
 ```bash
-
          Please enter the file path from which you want to remove duplicates: path/to/input.txt
          Please enter the name of the final file: output.txt
 ```
+
 Remove Duplicate Elements (orderly-order is important)
 
 ```bash
@@ -119,8 +103,11 @@ Extract Difference Between two Files
        Please enter the path of file 2: path/to/file2.txt
        Please enter the name of the final file (Difference between file 1 and file 2): difference.txt
 ```
-#Optimizations
 
+
+## Optimizations
+
+# process bar
 To optimize the M_script, you can consider the following improvements:
 
    Input Validation: Implement robust input validation to handle various edge cases, such as invalid file paths, incorrect file formats, and unexpected user inputs. This will enhance the reliability and usability of the script.
@@ -137,7 +124,9 @@ To optimize the M_script, you can consider the following improvements:
 
    Documentation: Expand the script's documentation by providing detailed explanations of the implemented algorithms, data structures, and techniques. Include examples, use cases, and best practices to assist users in understanding and utilizing the script effectively.
 
-Contribution
+
+
+## Contribution
 
 Contributions to the project are welcome. To contribute, follow these steps:
 
@@ -148,8 +137,17 @@ Contributions to the project are welcome. To contribute, follow these steps:
     Submit a pull request explaining your changes.
 
 Please follow the contribution guidelines for more details.
-Support
 
-If you encounter any issues or have any questions, feel free to create an issue or contact author-name.
+## License
 
-Thank you for using M_script!
+This project is licensed under the MIT License.
+
+## Support
+
+If you encounter any issues or have any questions, please create an issue or contact author-name.
+
+
+
+
+
+Thank you for using M_script! ❤
