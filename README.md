@@ -54,15 +54,16 @@ The script requires Python 3.x to be installed on your system.
     
     Extract the unique lines that exist in either of the two files.
     
+```bash
    About M_script
 
    Displays information about M_script.
-
-Instructions
+```
+# Instructions
 
    Run the script by executing the following command:
-
-    ```shell
+ ```bash
+    
 
     python script.py
 
@@ -71,22 +72,24 @@ Instructions
     Follow the prompts to provide the required input for each operation.
 
     Depending on the selected option, the script will perform the specified file operation and provide the results.
-    ```
-
+    
+```
 Examples
 
    Merge Multiple Files
 
-    ```bash
+```bash  
         How many files do you want to merge? 3
         Please enter the path of file 1 (with .txt format): path/to/file1.txt
         Please enter the path of file 2 (with .txt format): path/to/file2.txt
         Please enter the path of file 3 (with .txt format): path/to/file3.txt
         Are you sure you want to merge these files? (yes/no) yes
         OK. Now please enter the final file name (the merged file): merged_files.txt
-        ```
-
-Remove Duplicate Elements (shuffle-order is not important)
+        
+ ```bash
+ 
+ 
+   Remove Duplicate Elements (shuffle-order is not important)
 
 ```bash
 
