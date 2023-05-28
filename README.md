@@ -21,20 +21,15 @@ The script requires Python 3.x to be installed on your system.
 
    ```shell
    git clone https://github.com/your-username/repository-name.git
+   
+   ```shell
+   ```shell
+    Change into the project directory and use it
+   cd #repository-name
+   python3 main.py
 
-    Change into the project directory:
 
-    shell
-
-cd repository-name
-
-Run the script:
-
-shell
-
-    python script.py
-
-Usage
+#Usage
 
     Merge Multiple Files
 
@@ -78,46 +73,46 @@ Examples
 
     Merge Multiple Files
 
-    lua
+    ```shell
 
-How many files do you want to merge? 3
-Please enter the path of file 1 (with .txt format): path/to/file1.txt
-Please enter the path of file 2 (with .txt format): path/to/file2.txt
-Please enter the path of file 3 (with .txt format): path/to/file3.txt
-Are you sure you want to merge these files? (yes/no) yes
-OK. Now please enter the final file name (the merged file): merged_files.txt
+         How many files do you want to merge? 3
+         Please enter the path of file 1 (with .txt format): path/to/file1.txt
+         Please enter the path of file 2 (with .txt format): path/to/file2.txt
+         Please enter the path of file 3 (with .txt format): path/to/file3.txt
+         Are you sure you want to merge these files? (yes/no) yes
+         OK. Now please enter the final file name (the merged file): merged_files.txt
 
 Remove Duplicate Elements (shuffle-order is not important)
 
-lua
+```shell
 
-Please enter the file path from which you want to remove duplicates: path/to/input.txt
-Please enter the name of the final file: output.txt
+         Please enter the file path from which you want to remove duplicates: path/to/input.txt
+         Please enter the name of the final file: output.txt
 
 Remove Duplicate Elements (orderly-order is important)
 
-lua
+```shell
 
-Please enter the file path from which you want to remove duplicates: path/to/input.txt
-Please enter the name of the final file: output.txt
+         Please enter the file path from which you want to remove duplicates: path/to/input.txt
+         Please enter the name of the final file: output.txt
 
 Extract Intersection Between two Files
 
-lua
+```shell
 
-Please enter the path of file 1: path/to/file1.txt
-Please enter the path of file 2: path/to/file2.txt
-Please enter the name of the final file (Intersection between file 1 and file 2): intersection.txt
+         Please enter the path of file 1: path/to/file1.txt
+         Please enter the path of file 2: path/to/file2.txt
+         Please enter the name of the final file (Intersection between file 1 and file 2): intersection.txt
 
 Extract Difference Between two Files
 
-lua
+```shell
 
-    Please enter the path of file 1: path/to/file1.txt
-    Please enter the path of file 2: path/to/file2.txt
-    Please enter the name of the final file (Difference between file 1 and file 2): difference.txt
+       Please enter the path of file 1: path/to/file1.txt
+       Please enter the path of file 2: path/to/file2.txt
+       Please enter the name of the final file (Difference between file 1 and file 2): difference.txt
 
-Optimizations
+#Optimizations
 
 To optimize the M_script, you can consider the following improvements:
 
