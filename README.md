@@ -34,31 +34,27 @@ The script requires Python 3.x to be installed on your system.
 
 ## Usage
 
-    Merge Multiple Files
+   Merge Multiple Files
     
-    Merge multiple files into a single file.
+   Merge multiple files into a single file.
     
-    Remove Duplicate Elements (shuffle-order is not important)
+   Remove Duplicate Elements (shuffle-order is not important)
     
-    Remove duplicate elements from a file, regardless of their order.
+   Remove duplicate elements from a file, regardless of their order.
     
-    Remove Duplicate Elements (orderly-order is important)
+   Remove Duplicate Elements (orderly-order is important)
     
-    Remove duplicate elements from a file while preserving their order.
+   Remove duplicate elements from a file while preserving their order.
     
-    Extract Intersection Between two Files
+   Extract Intersection Between two Files
     
-    Extract the common lines between two files.
+   Extract the common lines between two files.
     
-    Extract Difference Between two Files
+   Extract Difference Between two Files
     
-    Extract the unique lines that exist in either of the two files.
+   Extract the unique lines that exist in either of the two files.
     
-```bash
-   About M_script
 
-   Displays information about M_script.
-```
 # Instructions
     
 
@@ -105,9 +101,9 @@ Extract Difference Between two Files
 ```
 
 
-## Optimizations
+# Optimizations
 
-# process bar
+process bar
 To optimize the M_script, you can consider the following improvements:
 
    Input Validation: Implement robust input validation to handle various edge cases, such as invalid file paths, incorrect file formats, and unexpected user inputs. This will enhance the reliability and usability of the script.
@@ -145,6 +141,10 @@ This project is licensed under the MIT License.
 ## Support
 
 If you encounter any issues or have any questions, please create an issue or contact author-name.
+
+
+
+
 
 
 
