@@ -1,31 +1,30 @@
 # M_script
-A very useful script to perform various operations such as removing duplicate values and finding common elements between several files, which is optimized for huge files.
-M_script
 
+M_script is a professional script that performs various file operations, such as merging multiple files, removing duplicate elements, extracting intersections, and differences between files. It leverages data structures and software algorithms to handle large files and complex implementations effectively.
 
-Features
+## Features
 
-    Merge Multiple Files
-    Remove Duplicate Elements (shuffle-order is not important)
-    Remove Duplicate Elements (orderly-order is important)
-    Extract Intersection Between two Files
-    Extract Difference Between two Files
-    About M_script
+1. Merge Multiple Files
+2. Remove Duplicate Elements (shuffle-order is not important)
+3. Remove Duplicate Elements (orderly-order is important)
+4. Extract Intersection Between two Files
+5. Extract Difference Between two Files
+6. About M_script
 
-Requirements
+## Requirements
 
 The script requires Python 3.x to be installed on your system.
-Installation
 
-    Clone the repository:
+## Installation
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/your-username/repository-name.git
+
+    Change into the project directory:
 
     shell
-
-git clone https://github.com/your-username/repository-name.git
-
-Change into the project directory:
-
-shell
 
 cd repository-name
 
@@ -118,7 +117,7 @@ lua
     Please enter the path of file 2: path/to/file2.txt
     Please enter the name of the final file (Difference between file 1 and file 2): difference.txt
 
-Optimization
+Optimizations
 
 To optimize the M_script, you can consider the following improvements:
 
